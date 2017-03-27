@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">市政管理平台</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_location">定位</string>
+    <string name="title_activity_find_question">发现问题</string>
+    <string name="title_activity_question_list">问题列表</string>
+    <string name="title_activity_question_details">问题细节</string>
+    <string name="title_activity_maintenance_upload">维修上传</string>
+    <string name="title_activity_my_order">我的接单</string>
+  
+    <string name="title_activity_my_orderdetail">接单维修</string>
+
+</resources>

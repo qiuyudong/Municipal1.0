@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_meitu_2"
+    android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/take_photo"
+             android:background="#00CCFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Take Photo  " />
+         <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="项目编号:"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="请输入项目编号"
+               />
+        </LinearLayout>
+  <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="时间:"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               />
+        </LinearLayout>
+        <LinearLayout  
+              android:layout_width="fill_parent"  
+              android:layout_height="wrap_content"  
+              android:gravity="center" > 
+          <Button
+            android:id="@+id/upload"
+             android:background="#00CCFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="           上传            " />
+          </LinearLayout>
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        
+        <ImageView
+            android:id="@+id/picture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" />
+    </ScrollView>
+</LinearLayout>
